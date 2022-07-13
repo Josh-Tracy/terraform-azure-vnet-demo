@@ -11,7 +11,7 @@ variable "resource_group_location" {
 }
 
 variable "vnet_cidr" {
-    type = list(string)
+    type = list
     description = "Address space of the VNET in CIDR notation"
   
 }
