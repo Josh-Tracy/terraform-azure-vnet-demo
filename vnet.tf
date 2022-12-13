@@ -16,6 +16,6 @@ resource "azurerm_virtual_network" "vnet" {
   }
 
   tags = {
-    environment = "beeeeep"
+    environment = "brrrruhh"
   }
 }
