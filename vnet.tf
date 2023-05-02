@@ -18,5 +18,6 @@ resource "azurerm_virtual_network" "vnet" {
   tags = {
     environment = "ooff"
     test = "test"
+    test2 = "test2"
   }
 }
