@@ -25,3 +25,8 @@ variable "subnet2_address_prefix" {
     type = string
     description = "Address prefix for subnet 2 in demo VNET in CIDR notation"
 }
+
+variable "storage_account_name" {
+  description = "Name of the storage account to create"
+  type        = string
+}
